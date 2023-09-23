@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Zadanie 5 Pędziwilk</title>
+<script language="JavaScript">
+function WinOpen_grafika1_ped()
+{
+window.open("grafika1.html","grafika_numer_1","toolbar=no,directories=no,menubar=no,height=335,width=210,top=350,left=229");
+}
+function WinOpen_grafika2_ped()
+{
+window.open("grafika2.html","grafika_numer_2","toolbar=no,directories=no,menubar=no,height=320,width=210,top=250,left=459");
+}
+function WinOpen_grafika3_ped()
+{
+window.open("grafika3.html","grafika_numer_3","toolbar=no,directories=no,menubar=no,height=320,width=210,top=150,left=691");
+}
+function WinOpen_grafika4_ped()
+{
+window.open("grafika4.html","grafika_numer_4","toolbar=no,directories=no,menubar=no,height=320,width=210,top=60,left=921");
+}
+function okno_zamknij()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+<script>
+document.write("<center>wykonał: Igor Pędziwilk mój numer w dzienniku 24, czyli".bold().fontsize(5).fontcolor("#FF0000")+"<br><center>");
+document.write("mam układ[(24) mod 4=0] Układ 3".bold().fontsize(5).fontcolor("#FF0000")+"<br>");
+
+</script>
+<form>
+<br><br>
+<input type="button" name="grafika1" value="grafika1" onclick="WinOpen_grafika1_ped(' ')">
+<input type="button" name="grafika2" value="grafika2" onclick="WinOpen_grafika2_ped(' ')">
+<input type="button" name="grafika3" value="grafika3" onclick="WinOpen_grafika3_ped(' ')">
+<input type="button" name="grafika4" value="grafika4" onclick="WinOpen_grafika4_ped(' ')">
+<br><br><br>
+<input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
+</form>
+</body>
+</html>
